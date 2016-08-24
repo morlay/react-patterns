@@ -1,0 +1,16 @@
+# Summary
+
+* [Stateless Function](./react-patterns/stateless-functions.md)
+* [JSX Spread Attributes](./react-patterns/jsx-spread-attributes.md)
+* [Destructuring Arguments](./react-patterns/destructuring-arguments.md)
+* [Conditional Rendering](./react-patterns/conditional-rendering.md)
+* [Children Types](./react-patterns/children-types.md)
+* [Array as children](./react-patterns/array-as-chidren.md)
+* [Function as children](./react-patterns/function-as-children.md)
+* [Render callback](./react-patterns/render-callback.md)
+* [Children pass-through](./react-patterns/children-pass-through.md)
+* [Proxy component](./react-patterns/proxy-component.md)
+* [Style component](./react-patterns/style-component.md)
+* [Layout component](./react-patterns/layout-component.md)
+* [Container component](./react-patterns/container-component.md)
+* [Higher-order component](./react-patterns/higher-order-component.md)

@@ -1,4 +1,4 @@
-## React Pattern
+## React Patterns
 
 Gitbook version for https://github.com/chantastic/reactpatterns.com
 

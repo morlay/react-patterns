@@ -10,17 +10,17 @@ const Greeting = () => <div>Hi there!</div>
 They get passed `props` and `context`.
 
 ```js
-const Greeting = (props, contex) =>
+const Greeting = (props, context) =>
   <div style={{color: context.color}}>Hi {props.name}!</div>
 ```
 
 They can define local variables when a function block is used.
 
 ```js
-const Greeting = (props, contex) => {
+const Greeting = (props, context) => {
   const style = {
     fontWeight: "bold",
-    color: contex.color,
+    color: context.color,
   }
 
   return <div style={style}>{props.name}</div>
@@ -32,10 +32,10 @@ But you could get the same affect with other fuctions.
 ```js
 const getStyle = context => ({
   fontWeight: "bold",
-  color: contex.color,
+  color: context.color,
 })
 
-const Greeting = (props, contex) =>
+const Greeting = (props, context) =>
   <div style={getStyle(context)}>{props.name}</div>
 ```
 
